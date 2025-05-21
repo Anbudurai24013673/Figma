@@ -1,5 +1,5 @@
 # Ex09 Event Registration Web Application
-## Date:
+## Date: 21-05-2025
 
 ## AIM:
 To design, develop and deploy a web application for event registration.
@@ -34,282 +34,282 @@ Figma
 
 ## CODE:
 ```
-PAGE-1:
-
-HTML CODE
-
-<div style="width: 700px; height: 840px; position: relative; background: black; overflow: hidden">
-  <div style="width: 200px; height: 38px; left: 222px; top: 581px; position: absolute; background: #D9D9D9; border-radius: 10px"></div>
-  <div style="width: 187px; height: 26px; left: 222px; top: 593px; position: absolute; text-align: center; justify-content: flex-end; display: flex; flex-direction: column; color: black; font-size: 32px; font-family: Instrument Serif; font-style: italic; font-weight: 400; word-wrap: break-word">LOGIN</div>
-  <div style="width: 194px; height: 37px; left: 228px; top: 630px; position: absolute; background: #D9D9D9; border-radius: 10px"></div>
-  <div style="width: 147px; height: 24px; left: 262px; top: 643px; position: absolute; text-align: center; justify-content: flex-end; display: flex; flex-direction: column; color: black; font-size: 32px; font-family: Instrument Serif; font-style: italic; font-weight: 400; word-wrap: break-word">REGISTER</div>
-  <div style="width: 607px; height: 192px; left: 32px; top: 244px; position: absolute; text-align: center; justify-content: flex-end; display: flex; flex-direction: column; color: white; font-size: 32px; font-family: Instrument Serif; font-style: italic; font-weight: 400; word-wrap: break-word">Fundamentals of Web Development<br/>WORKSHOP<br/><br/>                                                  Dr.P.Vijayan</div>
-  <div style="width: 646px; height: 79px; left: -150px; top: 461px; position: absolute; text-align: center; justify-content: flex-end; display: flex; flex-direction: column; color: white; font-size: 32px; font-family: Istok Web; font-style: italic; font-weight: 400; word-wrap: break-word">Learn from scratch!</div>
+Page -1 : 
+<div class="container--0-">
+  <img
+    src="data:image/jpeg;base64"
+  />
+  <div class="text-0-1-6">31/12/2024</div>
+  <div class="text-0-1-7">Free entry</div>
+  <svg
+    width="232"
+    height="50"
+    viewBox="0 0 232 50"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      opacity="0.8"
+      d="M0 30C0 15.8579 0 8.7868 4.3934 4.3934C8.7868 0 15.8579 0 30 0H212C221.428 0 226.142 0 229.071 2.92893C232 5.85786 232 10.5719 232 20C232 34.1421 232 41.2132 227.607 45.6066C223.213 50 216.142 50 202 50H20C10.5719 50 5.85786 50 2.92893 47.0711C0 44.1421 0 39.4281 0 30Z"
+      fill="black"
+      fill-opacity="0.2"
+    ></path>
+  </svg>
+  <div class="text-0-1-9">Register Now</div>
 </div>
 
-CSS CODE
 
-import React from "react";
-import styled from "styled-components";
+Page -2
 
-const StyledRectangle1 = styled.div`
-  width: 200px;
-  height: 38px;
-  left: 222px;
-  top: 581px;
-  position: absolute;
-  background: #D9D9D9;
-  border-radius: 10px;
-`;
-
-const StyledLoginspan = styled.span`
-  color: black;
-  font-size: 32px;
-  font-family: Instrument Serif;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-`;
-
-const StyledRectangle2 = styled.div`
-  width: 194px;
-  height: 37px;
-  left: 228px;
-  top: 630px;
-  position: absolute;
-  background: #D9D9D9;
-  border-radius: 10px;
-`;
-
-const StyledRegisterspan = styled.span`
-  color: black;
-  font-size: 32px;
-  font-family: Instrument Serif;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-`;
-
-const StyledFundamentalsofwebdevelopmentworkshopdrpvijayanspan = styled.span`
-  color: white;
-  font-size: 32px;
-  font-family: Instrument Serif;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-`;
-
-const StyledLearnfromscratchspan = styled.span`
-  color: white;
-  font-size: 32px;
-  font-family: Istok Web;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-`;
-
-const StyledAndroidMedium1 = styled.div`
-  width: 700px;
-  height: 840px;
-  position: relative;
-  background: black;
-  overflow: hidden;
-`;
-
-export const AndroidMedium1 = () => {
-  return (
-    <StyledAndroidMedium1>
-      <StyledRectangle1 />
-      <StyledLOGIN>LOGIN</StyledLOGIN>
-      <StyledRectangle2 />
-      <StyledREGISTER>REGISTER</StyledREGISTER>
-      <StyledFundamentalsofWebDevelopmentWORKSHOPDrPVijayan>Fundamentals of Web Development<br/>WORKSHOP<br/><br/>                                                  Dr.P.Vijayan</StyledFundamentalsofWebDevelopmentWORKSHOPDrPVijayan>
-      <StyledLearnfromscratch>Learn from scratch!</StyledLearnfromscratch>
-    </StyledAndroidMedium1>
-  );
-};
-
-PAGE-2
-
-HTML
-
-<div style="width: 700px; height: 840px; position: relative; background: black; overflow: hidden">
-  <div style="width: 630px; height: 597px; left: 63px; top: 219px; position: absolute; color: rgba(0, 0, 0, 0.20); font-size: 40px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)">CHAPTERS INCLUDED<br/><br/>         HTML<br/>         CSS<br/>         JAVA SCRIPT<br/>         DJANGO <br/>         TAILWIND CSS<br/>         BOOTSTRAP<br/>         FIGMA<br/>         </div>
+<div class="container--0-">
+  <img
+    src="data:image/jpeg;base64"
+  />
+  <div class="text-0-1-2">Event-registration</div>
+  <svg
+    width="277"
+    height="62"
+    viewBox="0 0 277 62"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      width="277"
+      height="62"
+      rx="15"
+      fill="#545456"
+      fill-opacity="0.34"
+    ></rect></svg
+  ><svg
+    width="262"
+    height="55"
+    viewBox="0 0 262 55"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 15C0 6.71573 6.71573 0 15 0H247C255.284 0 262 6.71573 262 15V40C262 48.2843 255.284 55 247 55H15C6.71573 55 0 48.2843 0 40V15Z"
+      fill="#3C3C43"
+      fill-opacity="0.29"
+    ></path></svg
+  ><svg
+    width="262"
+    height="53"
+    viewBox="0 0 262 53"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      width="262"
+      height="53"
+      rx="15"
+      fill="#3C3C43"
+      fill-opacity="0.29"
+    ></rect></svg
+  ><svg
+    width="262"
+    height="48"
+    viewBox="0 0 262 48"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      width="262"
+      height="48"
+      rx="15"
+      fill="#3C3C43"
+      fill-opacity="0.29"
+    ></rect></svg
+  ><svg
+    width="262"
+    height="50"
+    viewBox="0 0 262 50"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      width="262"
+      height="50"
+      rx="15"
+      fill="#3C3C43"
+      fill-opacity="0.29"
+    ></rect>
+  </svg>
+  <div class="text-0-1-8">Full Name</div>
+  <div class="text-0-1-9">Reg no</div>
+  <div class="text-0-1-10">Mobile no</div>
+  <div class="text-0-1-11">Department</div>
+  <div class="text-0-1-12">Year</div>
+  <svg
+    width="262"
+    height="52"
+    viewBox="0 0 262 52"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect
+      width="262"
+      height="52"
+      rx="15"
+      fill="#3C3C43"
+      fill-opacity="0.29"
+    ></rect>
+  </svg>
+  <div class="text-0-1-14">Email address</div>
+  <svg
+    width="159"
+    height="42"
+    viewBox="0 0 159 42"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 15C0 6.71573 6.71573 0 15 0H143.5C151.784 0 158.5 6.71573 158.5 15V27C158.5 35.2843 151.784 42 143.5 42H15C6.71573 42 0 35.2843 0 27V15Z"
+      fill="#545456"
+      fill-opacity="0.34"
+    ></path></svg
+  ><svg
+    width="159"
+    height="42"
+    viewBox="0 0 159 42"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 15C0 6.71573 6.71573 0 15 0H143.5C151.784 0 158.5 6.71573 158.5 15V27C158.5 35.2843 151.784 42 143.5 42H15C6.71573 42 0 35.2843 0 27V15Z"
+      fill="#545456"
+      fill-opacity="0.34"
+    ></path></svg
+  ><svg
+    width="159"
+    height="42"
+    viewBox="0 0 159 42"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 15C0 6.71573 6.71573 0 15 0H143.5C151.784 0 158.5 6.71573 158.5 15V27C158.5 35.2843 151.784 42 143.5 42H15C6.71573 42 0 35.2843 0 27V15Z"
+      fill="#4CD14C"
+      fill-opacity="0.66"
+    ></path>
+  </svg>
+  <div class="text-0-1-18">Submit</div>
+  <svg
+    width="159"
+    height="42"
+    viewBox="0 0 159 42"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 15C0 6.71573 6.71573 0 15 0H143.5C151.784 0 158.5 6.71573 158.5 15V27C158.5 35.2843 151.784 42 143.5 42H15C6.71573 42 0 35.2843 0 27V15Z"
+      fill="#E05A5A"
+      fill-opacity="0.6"
+    ></path>
+  </svg>
+  <div class="text-0-1-20">Clear all</div>
 </div>
 
-CSS
 
-import React from "react";
-import styled from "styled-components";
 
-const StyledChaptersincludedhtmlcssjavascriptdjangotailwindcssbootstrapfigmaspan = styled.span`
-  color: rgba(0, 0, 0, 0.20);
-  font-size: 40px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 700;
-  word-wrap: break-word;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-`;
+page 3
 
-const StyledAndroidMedium1 = styled.div`
-  width: 700px;
-  height: 840px;
-  position: relative;
-  background: black;
-  overflow: hidden;
-`;
-
-export const AndroidMedium1 = () => {
-  return (
-    <StyledAndroidMedium1>
-      <StyledCHAPTERSINCLUDEDHTMLCSSJAVASCRIPTDJANGOTAILWINDCSSBOOTSTRAPFIGMA>CHAPTERS INCLUDED<br/><br/>         HTML<br/>         CSS<br/>         JAVA SCRIPT<br/>         DJANGO <br/>         TAILWIND CSS<br/>         BOOTSTRAP<br/>         FIGMA<br/>         </StyledCHAPTERSINCLUDEDHTMLCSSJAVASCRIPTDJANGOTAILWINDCSSBOOTSTRAPFIGMA>
-    </StyledAndroidMedium1>
-  );
-};
-
-PAGE-3
-
-HTML
-
-<div style="width: 700px; height: 840px; position: relative; background: black; overflow: hidden">
-  <div style="width: 605px; height: 602px; left: 51px; top: 175px; position: absolute"><span style="color: white; font-size: 40px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word"><br/>Only on spot Registration<br/><br/></span><span style="color: white; font-size: 24px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">Venue: Saveetha Engineering college<br/>Date: 16.05.2025<br/></span><span style="color: white; font-size: 40px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word"><br/><br/></span><span style="color: white; font-size: 36px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">NO PREREQUISITE REQUIRED<br/></span><span style="color: white; font-size: 40px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word"><br/></span><span style="color: white; font-size: 32px; font-family: Inter; font-style: italic; font-weight: 400; word-wrap: break-word">ONLY PURE INTEREST IS REQUIRED<br/></span><span style="color: white; font-size: 40px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word"><br/> <br/></span></div>
+<div class="container--0-">
+  <img
+    src="data:image/jpeg;base64"
+  />
+  <div class="text-0-1-2">what type of art you are interested in</div>
+  <div class="text-0-1-3">
+    Painting<br />Sketching<br />Calligraphy<br />Digital Art<br />Sculpting<br />Other
+  </div>
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect></svg
+  ><svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect></svg
+  ><svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect></svg
+  ><svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect></svg
+  ><svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect></svg
+  ><svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect>
+  </svg>
+  <div class="text-0-1-10">Do you have any prior experience in art</div>
+  <svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect></svg
+  ><svg
+    width="18"
+    height="18"
+    viewBox="0 0 18 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect width="18" height="18" fill="#999999"></rect>
+  </svg>
+  <div class="text-0-1-13">Yes</div>
+  <div class="text-0-1-14">No</div>
 </div>
 
-CSS
+page -4 
 
-import React from "react";
-import styled from "styled-components";
-
-const StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan01 = styled.span`
-  color: white;
-  font-size: 40px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 700;
-  word-wrap: break-word;
-`;
-
-const StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan02 = styled.span`
-  color: white;
-  font-size: 24px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 600;
-  word-wrap: break-word;
-`;
-
-const StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan03 = styled.span`
-  color: white;
-  font-size: 40px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 700;
-  word-wrap: break-word;
-`;
-
-const StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan04 = styled.span`
-  color: white;
-  font-size: 36px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 600;
-  word-wrap: break-word;
-`;
-
-const StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan05 = styled.span`
-  color: white;
-  font-size: 40px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 700;
-  word-wrap: break-word;
-`;
-
-const StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan06 = styled.span`
-  color: white;
-  font-size: 32px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 400;
-  word-wrap: break-word;
-`;
-
-const StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan07 = styled.span`
-  color: white;
-  font-size: 40px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 700;
-  word-wrap: break-word;
-`;
-
-const StyledAndroidMedium1 = styled.div`
-  width: 700px;
-  height: 840px;
-  position: relative;
-  background: black;
-  overflow: hidden;
-`;
-
-export const AndroidMedium1 = () => {
-  return (
-    <StyledAndroidMedium1>
-      <StyledOnlyonspotRegistrationVenueSaveethaEngineeringcollegeDate16052025NOPREREQUISITEREQUIREDONLYPUREINTERESTISREQUIRED><StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan01><br/>Only on spot Registration<br/><br/></StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan01><StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan02>Venue: Saveetha Engineering college<br/>Date: 16.05.2025<br/></StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan02><StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan03><br/><br/></StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan03><StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan04>NO PREREQUISITE REQUIRED<br/></StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan04><StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan05><br/></StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan05><StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan06>ONLY PURE INTEREST IS REQUIRED<br/></StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan06><StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan07><br/> <br/></StyledOnlyonspotregistrationvenuesaveethaengineeringcollegedate16052025noprerequisiterequiredonlypureinterestisrequiredspan07></StyledOnlyonspotRegistrationVenueSaveethaEngineeringcollegeDate16052025NOPREREQUISITEREQUIREDONLYPUREINTERESTISREQUIRED>
-    </StyledAndroidMedium1>
-  );
-};
-
-PAGE-4
-
-HTML
-
-<div style="width: 700px; height: 840px; position: relative; background: black; overflow: hidden">
-  <div style="width: 605px; height: 602px; left: 51px; top: 175px; position: absolute; text-align: center; justify-content: center; display: flex; flex-direction: column"><span style="color: white; font-size: 40px; font-family: Inter; font-style: italic; font-weight: 700; word-wrap: break-word"><br/></span><span style="color: white; font-size: 40px; font-family: Inter; font-style: italic; font-weight: 600; word-wrap: break-word">THANK YOU</span></div>
+<div class="container--0-">
+  <img
+    src="data:image/jpeg;base64"
+  />
+  <div class="text-0-1-2">Thank You</div>
+  <div class="text-0-1-3">
+    Contact Details : <br />Mobile : +91 8825492139<br />Email :
+    eventsaveetha@gmail.com<br />Website : events.saveetha.in
+  </div>
 </div>
-
-CSS
-
-import React from "react";
-import styled from "styled-components";
-
-const StyledThankyouspan01 = styled.span`
-  color: white;
-  font-size: 40px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 700;
-  word-wrap: break-word;
-`;
-
-const StyledThankyouspan02 = styled.span`
-  color: white;
-  font-size: 40px;
-  font-family: Inter;
-  font-style: italic;
-  font-weight: 600;
-  word-wrap: break-word;
-`;
-
-const StyledAndroidMedium1 = styled.div`
-  width: 700px;
-  height: 840px;
-  position: relative;
-  background: black;
-  overflow: hidden;
-`;
-
-export const AndroidMedium1 = () => {
-  return (
-    <StyledAndroidMedium1>
-      <StyledTHANKYOU><StyledThankyouspan01><br/></StyledThankyouspan01><StyledThankyouspan02>THANK YOU</StyledThankyouspan02></StyledTHANKYOU>
-    </StyledAndroidMedium1>
-  );
-};
 ```
 
 ## OUTPUT:
 
+![alt text](figma.jpg)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
